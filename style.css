@@ -1,6 +1,6 @@
 .heading{
     margin: 0px;
-    box-shadow: 3px 3px 3px grey;
+    box-shadow: 3px 3px 3px rgb(227, 153, 153);
     font-weight: bold;
     font-size: 15px;
     width: 100%;
@@ -13,7 +13,7 @@
     width: 100%;
     line-height: 3;
     bottom: 0;
-    background-color: grey;
+    background-color: rgb(249, 165, 165);
     color: white;
     position: fixed;
     font-weight: bold;
@@ -21,4 +21,18 @@
 }
 body{
     background-size: cover;
+}
+canvas{
+    box-shadow: 5px 5px 5px rgb(232, 199, 199);
+    background-color: rgb(241, 169, 156);
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-left:250px;
+}
+video{
+    border: 5px solid rgb(220, 250, 144);
+    margin-top: 80px;
+    border-radius:20px ;
+    margin-left:20px;
+    margin-right:20px;
 }
